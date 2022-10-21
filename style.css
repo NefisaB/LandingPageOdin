@@ -1,0 +1,182 @@
+/* Unsplash Images By The Lucky Neko & Jari Hytönen */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20%;
+    background-color: rgb(148, 40, 104);
+    color: white;
+}
+
+.header-logo {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    height: 450px;
+    padding: 0 20%;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(160, 65, 122);
+    color: white;
+    align-items: center;
+    gap: 40px;
+}
+
+.welcome-text {
+    width: 400px;
+    padding: 0;
+
+}
+
+.welcome-text h1 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+.welcome-image img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
+button {
+    background-color: white;
+    color: rgb(148, 40, 104);
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+
+button:hover {
+    filter: brightness(80%);
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-info h2 {
+    font-size: 2rem;
+    color: rgb(148, 40, 104);
+}
+
+.images {
+    display: flex;
+    padding: 0;
+}
+
+.img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid rgb(189, 66, 140);
+    border-radius: 8px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.quotes {
+    background-color: rgb(208, 152, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 30px 100px;
+}
+
+.quote .text {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.quote .author {
+    font-size: 1.6rem;
+    font-weight: 800;
+    align-self: flex-end;
+    margin-top: 0;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card {
+    background-color: rgb(189, 66, 140);
+    border-radius: 10px;
+    padding: 20px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.contact-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: rgb(148, 40, 104);
+    text-align: center;
+    height: 70px;
+    font-size: 0.9rem;
+    color: white;
+    padding: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
